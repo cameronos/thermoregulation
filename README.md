@@ -1,18 +1,12 @@
-#[ModKit Wiki](../../wiki)
-# How to get started with KTANE Modding
+# Thermoregulation
+<p align="center"><img width=20% src="https://images.steamusercontent.com/ugc/10062094651487564417/05417AC2C9065FAEE812701A239C6C7411498FDB/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"></p>
+KTANE module inspired by Ventilation, original idea by Pruz<br>
+See workshop page <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3600583769">here</a>.
 
-If you would like to learn how to develop mods in video form, refer to Royal_Flu$h's tutorial series:
-https://www.youtube.com/playlist?list=PLDHjUZseb2dn07p0Hh35iYJt-pDtWSgJ0
+### Languages and styles used
+<p>
+    <A href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"><img height="28" width="28" src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg" /></a>
+</p>
 
-For videos about things Royal's tutorial does not cover, look here:
-https://www.youtube.com/playlist?list=PL-1P5EmkkFxrwWW6z0uZ5nBdRImsReOQ0
-
-Basic setup for first-time users:
-- Download this repo (Clone or Download) > (Download ZIP)
-- Download Unity 2017.4.22f1
-  Link: https://unity3d.com/unity/qa/lts-releases?version=2017.4&page=2
-- Download an IDE
-  - Visual Studio Link: https://visualstudio.microsoft.com/
-  - Visual Studio Code Link: https://code.visualstudio.com/
-  - Atom Link: https://atom.io/
-  - Notepad++ (Not recommended as an IDE but is still useful) Link: https://notepad-plus-plus.org/
+### Errors
+Bug reports can be submitted to cameronos on Discord.
