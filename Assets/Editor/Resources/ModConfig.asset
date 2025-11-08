@@ -17,10 +17,10 @@ MonoBehaviour:
   description: "Thermoregulation 1.0\n\"The fan is broken, and you are our finest
     electrical engineer... but you press buttons for a living, not soldering.\"\n\r\nThe
     temperature will continuously rise while the fan is off. Press the buttons in
-    a specific sequence to repair and restart the fan.\n\r\nManual included in game
-    files and ktane.timwi.de\r\nReport bugs to cameronos on Discord.\r\n\r\nModule
-    ID: thermoregulation\r\nCreated by, Idea: cameronos\r\nOriginal Idea: Pruz (called
-    Ventilation)"
+    sequence to repair and restart the fan.\n\r\nManual included in game files, posting
+    to ktane.timwi.de\r\nReport bugs to cameronos on Discord.\r\n\r\nModule ID: thermoregulation\r\nCreated
+    by, Idea: cameronos\r\nOriginal Idea: Pruz (called Ventilation)\n3D Model (Fan):
+    Temoor"
   version: 1.0
   outputFolder: build
   previewImage: {fileID: 2800000, guid: 4a00ea07502857a4089ffa018fb32b87, type: 3}

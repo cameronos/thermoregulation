@@ -160,15 +160,30 @@ public class Thermoregulation : MonoBehaviour
 
     void Start() //soon as bomb loads?
     {
-        timeToOverheat = Bomb.GetTime() * 0.4f;
-        //timeToOverheat = 5; //debugging
-        degreesPerSecond = 175f / timeToOverheat; // 175°F due to 250 - 75f starting temp
-        Debug.LogFormat(
-            "[Thermoregulation #{0}] Bomb has {1} seconds before overheating at 250°F. Temp will rise {2}°F per second.",
-            ModuleId,
-            timeToOverheat,
-            degreesPerSecond
-        );
+
+      float bombTime = Bomb.GetTime(); // total bomb time in seconds
+
+          if (bombTime <= 540f) //9min
+          {
+              timeToOverheat = 99999; // never rise infinite
+              degreesPerSecond = 0f; // no automatic temp rise
+              Debug.LogFormat(
+                  "[Thermoregulation #{0}] Bomb has ≤9 minutes. Temp will not rise.",
+                  ModuleId
+              );
+          }
+          else
+          {
+              timeToOverheat = bombTime * 0.5f;
+              degreesPerSecond = 175f / timeToOverheat;
+              float timeToOverheatReadable = timeToOverheat/60;
+              Debug.LogFormat(
+                  "[Thermoregulation #{0}] Bomb has {1} minutes before overheating at 250°F. Temp will rise {2}°F per second.",
+                  ModuleId,
+                  timeToOverheatReadable,
+                  degreesPerSecond
+              );
+          }
 
         //set LED
         ledColor = Rnd.Range(0, 3);
