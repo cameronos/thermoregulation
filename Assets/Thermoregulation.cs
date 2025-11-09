@@ -76,7 +76,7 @@ public class Thermoregulation : MonoBehaviour
         Audio.PlaySoundAtTransform("buttonPress", buttons[0].transform);
         buttons[buttonIndex].AddInteractionPunch(0.5f);
 
-        if (buttonIndex < 3) // Colored buttons (0=Red, 1=Yellow, 2=Blue)
+        if (buttonIndex < 3)
         {
             playerSequence.Add(buttonIndex); // Button index IS the sequence value!
 
@@ -437,3 +437,6 @@ public class Thermoregulation : MonoBehaviour
         }
 
 }
+
+//Please submit bug reports to ME (cameronos on Discord).
+//Sorry for 9oxkwDnVe9o Dog

@@ -14,7 +14,7 @@ MonoBehaviour:
   id: thermoregulation
   title: Thermoregulation
   author: cameronos
-  description: "Thermoregulation 1.0\n\"The fan is broken, and you are our finest
+  description: "Thermoregulation 1.1\n\"The fan is broken, and you are our finest
     electrical engineer... but you press buttons for a living, not soldering.\"\n\r\nThe
     temperature will continuously rise while the fan is off. Press the buttons in
     sequence to repair and restart the fan.\n\r\nManual included in game files, posting
